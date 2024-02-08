@@ -70,7 +70,7 @@ export class App extends Component {
       <Layout>
         <SearchBar onSubmit={this.onSubmit} />
         {hits.length === 0 && !error && (
-          <Notification>Try to find some images</Notification>
+          <Notification></Notification>
         )}
         {isLoading && <Loader />}
         {error && (
