@@ -1,5 +1,7 @@
 import { RotatingSquare } from 'react-loader-spinner';
 import { LoaderDiv } from './Loader.styled';
+import Loader from './components/Loader/Loader';
+import React from 'react';
 
 const Loader = () => {
   return (
